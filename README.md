@@ -72,7 +72,7 @@ Cp   = 1.000
 Cpk  = 0.614    
 
 === [CMP] 그룹별 Capability 요약 (Spec 기반 σ 기준) ===  
-|        Group |  N   | Mean | Cp_design |  Cpk_design |
+|        Group |  N   | Mean | Cp |  Cpk |
 | ------------ | ---- | ---- | --------- | ----------- |
 |          All | 25 | 5154.480  |    1.0  |     0.614 |
 |  Dressing 2s | 12 | 5181.833  |    1.0  |     0.545 |
@@ -111,7 +111,7 @@ Cp_design   = 1.000
 Cpk_design  = 0.988  
 
 === [Etch] 그룹별 Capability 요약 (설계 σ 기준) ===  
-|           Group  |  N   |   Mean   | Cp_design | Cpk_design |
+|           Group  |  N   |   Mean   | Cp | Cpk |
 | ---------------- | ---- | -------- | --------- | ---------- |
 |              All |  25  | 4798.160 |       1.0 |      0.988 |
 |  Etch test=test1 |   5  | 4685.400 |       1.0 |      0.236 |
