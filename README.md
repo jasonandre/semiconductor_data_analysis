@@ -32,7 +32,7 @@
 
  - dressing step 시간 단축 테스트 적용된 CMP 공정의 post thickness 데이터
  - CMP Post Target : 5000A +/- 400A
- - 평균의 이동 점검  
+ - 테스트 이력이 포함된 데이터임을 감안해 각 이력 별 평균의 이동 점검  
 
 
 1) 전체 25개 기준  
@@ -81,7 +81,8 @@ Cpk_design  = 0.614
 |    Chamber C |  8 | 5391.375  |    1.0  |     0.022 |  
 
 
-=> CMP 공정 후 박막데이터 중 Chamber C의 Cpk가 크게 떨어짐
+=> CMP 공정 후 박막데이터 중 Chamber C의 Cpk가 크게 떨어짐  
+
 
 
 [Etch]  
@@ -117,10 +118,7 @@ Cpk_design  = 0.988
 |        Chamber C |   8  | 4804.250 |       1.0 |      0.972 |
 
 
-=> Etch테스트의 영향으로 Cpk가 낮게 계산됨 -> Etch 공정 설비 문제는 아닌 것으로 추정  
-=> Etch 대비 CMP 공정 후 박막 두께 데이터에서 Cpk 가 크게 줄어듬  
-
-
+=> Etch테스트의 영향으로 Cpk가 낮게 계산됨  
 
 
 
