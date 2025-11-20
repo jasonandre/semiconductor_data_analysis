@@ -8,9 +8,9 @@
   
 | 구분   | 내용                                            |
 | ---- | --------------------------------------------- |
-| CMP  | Dressing step – 2 sec (#1-#12) / - 4 sec (#13-#25) |
-| Etch | 테스트 이력 (test1~test5) 혼재                      |
-| CVD  | 테스트 이력 및 Chamber A/B/C 존재                   |
+| CMP  | Dressing step – 2 sec (#1 - #12) / - 4 sec (#13 - #25) |
+| Etch | 테스트 이력 (test1 - test5)                       |
+| CVD  | 테스트 이력 및 Chamber A/B/C 존재, 별도의 Thickness data 없음 |
 
 - 데이터 컬럼 구조 :
 
