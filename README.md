@@ -10,7 +10,7 @@
   
 | 구분   | 내용                                            |
 | ---- | --------------------------------------------- |
-| CMP  | Dressing step –2 sec (#1-12) / -4 sec (#13-25) |
+| CMP  | Dressing step –2 sec (#1-#12) / -4 sec (#13-#25) |
 | Etch | 테스트 이력 (test1~test5) 혼재                       |
 | CVD  | 테스트 이력 및 Chamber A/B/C 존재                     |
 
@@ -30,13 +30,29 @@
 
 # 2. 공정능력지수
  - dressing step 시간 단축 테스트 적용된 CMP 공정의 post thickness 데이터
- - CMP 공정능력
+ - CMP Post Target : 5000A +/- 400A
+ - 평균의 이동 점검
 
-    Mean=5154.48, Std=180.84
+1) 전체 25개 기준
+평균(전체): 5154.48 Å
+σ_CMP = 133.33 Å
+Cp = 1.00 (설계상)
+Cpk = 0.614
 
-    Cp=0.737, Cpk=0.453
-   
-<img width="869" height="564" alt="image" src="https://github.com/user-attachments/assets/77c26129-736b-42d2-90b2-b3b68ccaca36" />
+2) Dressing 2 sec (#1~12)
+평균: 5181.83 Å
+σ_CMP = 133.33 Å
+Cp = 1.00
+Cpk = 0.545
+
+3) Dressing 4 sec (#13-25)
+평균: 5129.23 Å
+σ_CMP = 133.33 Å
+Cp = 1.00
+Cpk = 0.677
+
+
+<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/b9dc800b-4caa-41e8-92d7-c51ba245ff70" />
 
 
 
