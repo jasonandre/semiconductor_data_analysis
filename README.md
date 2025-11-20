@@ -63,6 +63,25 @@
 <img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/5984b3b6-505c-4fcd-b336-a8855c1e1451" />  
 
 
+[CMP] 설계 시그마 (design σ) = 133.333
+
+=== [CMP] 전체 LOT 기준 공정 능력 (설계 σ 기준) ===  
+Mean_sample = 5154.48, Sigma_sample = 180.84  
+Cp_design   = 1.000  
+Cpk_design  = 0.614  
+
+=== [CMP] 그룹별 Capability 요약 (설계 σ 기준) ===  
+|        Group |  N   | Mean | Cp_design |  Cpk_design |
+| ------------ | ---- | ---- | --------- | ----------- |
+|          All | 25 | 5154.480  |    1.0  |     0.614 |
+|  Dressing 2s | 12 | 5181.833  |    1.0  |     0.545 |
+|  Dressing 4s | 13 | 5129.231  |    1.0  |     0.677 |
+|    Chamber A |  9 | 5033.333  |    1.0  |     0.917 |
+|    Chamber B |  8 | 5053.875  |    1.0  |     0.865 |
+|    Chamber C |  8 | 5391.375  |    1.0  |     0.022 |  
+
+
+=> CMP 공정 후 박막데이터 중 Chamber C의 Cpk가 크게 떨어짐
 
 
 [Etch]  
@@ -80,26 +99,28 @@
 
 
 
-=> Etch 대비 cmp 공정 후 박막 두께 데이터에서 Cpk 가 크게 줄어듬  
+[Etch] 설계 시그마 (design σ) = 50.000
+
+=== [Etch] 전체 LOT 기준 공정 능력 (설계 σ 기준) ===
+Mean_sample = 4798.16, Sigma_sample = 85.73
+Cp_design   = 1.000
+Cpk_design  = 0.988
+
+=== [Etch] 그룹별 Capability 요약 (설계 σ 기준) ===
+|           Group  |  N   |   Mean   | Cp_design | Cpk_design |
+| ---------------- | ---- | -------- | --------- | ---------- |
+|              All |  25  | 4798.160 |       1.0 |      0.988 |
+|  Etch test=test1 |   5  | 4685.400 |       1.0 |      0.236 |
+|  Etch test=test2 |   5  | 4929.400 |       1.0 |      0.137 |
+|        Chamber A |   9  | 4796.778 |       1.0 |      0.979 |
+|        Chamber B |   8  | 4793.625 |       1.0 |      0.958 |
+|        Chamber C |   8  | 4804.250 |       1.0 |      0.972 |
 
 
+=> Etch테스트의 영향으로 Cpk가 낮게 계산됨 -> Etch 공정 설비 문제는 아닌 것으로 추정  
+=> Etch 대비 CMP 공정 후 박막 두께 데이터에서 Cpk 가 크게 줄어듬  
 
-[CMP] 설계 시그마 (design σ) = 133.333
 
-=== [CMP] 전체 LOT 기준 공정 능력 (설계 σ 기준) ===  
-Mean_sample = 5154.48, Sigma_sample = 180.84  
-Cp_design   = 1.000  
-Cpk_design  = 0.614  
-
-=== [CMP] 그룹별 Capability 요약 (설계 σ 기준) ===  
-|        Group |  N   | Mean | Cp_design |  Cpk_design |
-| ------------ | ---- | ---- | --------- | ----------- |
-|          All | 25 | 5154.480  |    1.0  |     0.614 |
-|  Dressing 2s | 12 | 5181.833  |    1.0  |     0.545 |
-|  Dressing 4s | 13 | 5129.231  |    1.0  |     0.677 |
-|    Chamber A |  9 | 5033.333  |    1.0  |     0.917 |
-|    Chamber B |  8 | 5053.875  |    1.0  |     0.865 |
-|    Chamber C |  8 | 5391.375  |    1.0  |     0.022 |
 
 
 
