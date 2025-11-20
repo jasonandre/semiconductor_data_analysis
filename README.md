@@ -161,11 +161,27 @@ all_viol: ['#3', '#9', '#21']
 
  
 
+# 4. CVD 챔버별 통계 분석
+   
+(1) CMP 상자그림
+
+<img width="630" height="454" alt="image" src="https://github.com/user-attachments/assets/6d1122f7-7d8d-426e-a2fd-5050b4427dae" />
+
+
+(2) Etch 상자그림
+
+<img width="630" height="454" alt="image" src="https://github.com/user-attachments/assets/b9a89d23-7dca-4225-8c12-467dfb3ebc0d" />
 
 
 
-# 4. Etch  테스트 적용 이력 분석
+결론:   
+Etch 공정은 CVD 공정 이전에 선행되어 CVD 챔버의 영향을 받지 않았음.  
+CVD 챔버 C의 이상으로 박막 두께가 목표치보다 지나치게 두꺼워지는 현상이 있었음을 발견.
 
+
+
+# 5. Etch  테스트 적용 이력 분석  
+- CMP 공정의 테스트효과는 챔버 C의 영향으로 정상적인 분석이 불가능 -> Etch 테스트의 효과만 별도로 점검  
 - 각 테스트 별 구간 그림
   
 <img width="857" height="544" alt="image" src="https://github.com/user-attachments/assets/98caff69-419a-4a99-a735-be98626daa1b" />
@@ -193,21 +209,6 @@ t=-16.683, p=0.0000
 
 
 
-# 5. CVD 챔버별 통계 분석
-   
-(1) CMP 상자그림
-
-<img width="630" height="454" alt="image" src="https://github.com/user-attachments/assets/6d1122f7-7d8d-426e-a2fd-5050b4427dae" />
-
-
-(2) Etch 상자그림
-
-<img width="630" height="454" alt="image" src="https://github.com/user-attachments/assets/b9a89d23-7dca-4225-8c12-467dfb3ebc0d" />
-
-
-
-결론: CVD 챔버 C의 이상으로 박막 두께가 지나치게 두꺼워지는 현상이 있었음을 발견
-
 
 
 # CMP post thickness 데이터 기반 CVD 테스트 이력 분석의 타당성 검증  
@@ -228,7 +229,7 @@ CMP 공정의 post thickness 데이터로 CVD 공정테스트 이력을 분석�
 
 
 
-결론 : 그래프 양상이 비슷하고, 2가지 테스트 모두 C챔버가 상한을 벗어나는 것이 확인된다. CMP 공정의 효과보다도 CVD 챔버의 영향이 크다는 것을 확인할 수 있다. 
+결론 : 그래프 양상이 비슷하고, 2가지 테스트 모두 C챔버가 상한을 벗어나는 것이 확인된다. CMP 공정 테스트의 효과보다도 CVD 챔버 이상의 영향이 크다는 것을 확인할 수 있다. 
 
 
 
