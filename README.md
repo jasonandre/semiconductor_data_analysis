@@ -28,7 +28,7 @@
 
 # 2. 박막 두께 기반 CMP·Etch 공정 성능 분석  
 
-[CMP]  
+[CMP 공정]  
 
  - dressing step 시간 단축 테스트 적용된 CMP 공정의 post thickness 데이터
  - CMP Post Target : 5000A +/- 400A
@@ -38,7 +38,7 @@
 1) 전체 25개 기준  
  -  평균(전체): 5154.48 Å  
  -  σ_CMP = 133.33 Å  
- -  Cp = 1.00 (설계상)  
+ -  Cp = 1.00  
  -  Cpk = 0.614  
 
 <img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/7fb2bf1b-41f1-4b17-b223-7c58335c56ce" />  
@@ -63,14 +63,15 @@
 <img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/5984b3b6-505c-4fcd-b336-a8855c1e1451" />  
 
 
-[CMP] 설계 시그마 (design σ) = 133.333
+[CMP] Spec 기반 시그마 σ = 133.333
 
-=== [CMP] 전체 LOT 기준 공정 능력 (설계 σ 기준) ===  
-Mean_sample = 5154.48, Sigma_sample = 180.84  
-Cp_design   = 1.000  
-Cpk_design  = 0.614  
+=== [CMP] 전체 LOT 기준 공정 능력 (Spec 기반 σ 기준 ) ===  
+표본 평균 = 5154.48, 
+표본 표준편차 = 180.84  
+Cp   = 1.000  
+Cpk  = 0.614  
 
-=== [CMP] 그룹별 Capability 요약 (설계 σ 기준) ===  
+=== [CMP] 그룹별 Capability 요약 (Spec 기반 σ 기준) ===  
 |        Group |  N   | Mean | Cp_design |  Cpk_design |
 | ------------ | ---- | ---- | --------- | ----------- |
 |          All | 25 | 5154.480  |    1.0  |     0.614 |
@@ -85,7 +86,7 @@ Cpk_design  = 0.614
 
 
 
-[Etch]  
+[Etch 공정]  
 
  - Etch Si RIE post thickness 데이터
  - Etch Post Target : 4800A +/-150A  
@@ -100,10 +101,11 @@ Cpk_design  = 0.614
 
 
 
-[Etch] 설계 시그마 (design σ) = 50.000
+[Etch] Spec 기반 σ = 50.000
 
 === [Etch] 전체 LOT 기준 공정 능력 (설계 σ 기준) ===
-Mean_sample = 4798.16, Sigma_sample = 85.73
+표본 평균 = 4798.16, 
+표본 표준편차 = 85.73
 Cp_design   = 1.000
 Cpk_design  = 0.988
 
