@@ -35,33 +35,33 @@
 
 1) 전체 25개 기준
 
-평균(전체): 5154.48 Å
+  평균(전체): 5154.48 Å
 
-σ_CMP = 133.33 Å
+    σ_CMP = 133.33 Å
 
-Cp = 1.00 (설계상)
+    Cp = 1.00 (설계상)
 
-Cpk = 0.614
+    Cpk = 0.614
 
 2) Dressing 2 sec (#1~12)
    
-평균: 5181.83 Å
+  평균: 5181.83 Å
 
-σ_CMP = 133.33 Å
+    σ_CMP = 133.33 Å
 
-Cp = 1.00
+    Cp = 1.00
 
-Cpk = 0.545
+    Cpk = 0.545
 
 3) Dressing 4 sec (#13-25)
    
-평균: 5129.23 Å
+  평균: 5129.23 Å
 
-σ_CMP = 133.33 Å
+    σ_CMP = 133.33 Å
 
-Cp = 1.00
+    Cp = 1.00
 
-Cpk = 0.677
+    Cpk = 0.677
 
 
 <img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/b9dc800b-4caa-41e8-92d7-c51ba245ff70" />
