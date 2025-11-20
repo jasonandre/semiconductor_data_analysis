@@ -39,6 +39,9 @@
     Cp = 1.00 (설계상)
     Cpk = 0.614
 
+<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/f020fc4e-1ca1-49c9-97df-4a1b752d4cc2" />
+
+
 2) Dressing 2 sec (#1~12)
     평균: 5181.83 Å
     σ_CMP = 133.33 Å
