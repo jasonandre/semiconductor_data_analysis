@@ -34,10 +34,10 @@
  - 평균의 이동 점검
 
 1) 전체 25개 기준
--평균(전체): 5154.48 Å
--σ_CMP = 133.33 Å
--Cp = 1.00 (설계상)
--Cpk = 0.614
+ - 평균(전체): 5154.48 Å
+ - σ_CMP = 133.33 Å
+ - Cp = 1.00 (설계상)
+ - Cpk = 0.614
 
 <img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/f020fc4e-1ca1-49c9-97df-4a1b752d4cc2" />
 
