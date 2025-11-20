@@ -84,6 +84,24 @@
 
 
 
+[CMP] 설계 시그마 (design σ) = 133.333
+
+=== [CMP] 전체 LOT 기준 공정 능력 (설계 σ 기준) ===  
+Mean_sample = 5154.48, Sigma_sample = 180.84  
+Cp_design   = 1.000  
+Cpk_design  = 0.614  
+
+=== [CMP] 그룹별 Capability 요약 (설계 σ 기준) ===  
+|        Group |  N   | Mean | Cp_design |  Cpk_design |
+| ------------ | ---- | ---- | --------- | ----------- |
+|          All | 25 | 5154.480  |    1.0  |     0.614 |
+|  Dressing 2s | 12 | 5181.833  |    1.0  |     0.545 |
+|  Dressing 4s | 13 | 5129.231  |    1.0  |     0.677 |
+|    Chamber A |  9 | 5033.333  |    1.0  |     0.917 |
+|    Chamber B |  8 | 5053.875  |    1.0  |     0.865 |
+|    Chamber C |  8 | 5391.375  |    1.0  |     0.022 |
+
+
 
 # 3. I-MR 관리도
    *슈하트 규칙 적용
@@ -158,10 +176,14 @@ t=-16.683, p=0.0000
 
 # 5. CVD 챔버별 통계 분석
    
-(1) 상자그림 & 주효과도
+(1) CMP 상자그림
 
-<img width="1189" height="490" alt="image" src="https://github.com/user-attachments/assets/1fe40ba9-3d34-4071-9565-8ef0e7d17fa1" />
+<img width="630" height="454" alt="image" src="https://github.com/user-attachments/assets/6d1122f7-7d8d-426e-a2fd-5050b4427dae" />
 
+
+(2) Etch 상자그림
+
+<img width="630" height="454" alt="image" src="https://github.com/user-attachments/assets/b9a89d23-7dca-4225-8c12-467dfb3ebc0d" />
 
 
 
