@@ -88,9 +88,13 @@
 # 3. I-MR 관리도
    *슈하트 규칙 적용
 
-<img width="989" height="390" alt="image" src="https://github.com/user-attachments/assets/6f98f96a-6e95-44ab-b4e4-fa3f853f40d9" />
+전체 관리도  
 
-   
+<img width="989" height="390" alt="image" src="https://github.com/user-attachments/assets/6f98f96a-6e95-44ab-b4e4-fa3f853f40d9" />  
+
+<img width="989" height="390" alt="image" src="https://github.com/user-attachments/assets/4aed4a2b-dadb-40f4-a5b3-c4212589bbe5" />  
+
+
 (1) dressing step 2초 하향 적용
   <img width="1169" height="564" alt="image" src="https://github.com/user-attachments/assets/fa41cfa5-108c-421a-82fb-8ad8e0541db7" />
 
