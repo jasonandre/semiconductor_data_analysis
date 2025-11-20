@@ -1,11 +1,30 @@
 # Analysis of Semiconductor Lot Post CMP Thickness: CVD Chamber & Etch Test Effects
 
-- “Analyzing Post CMP thickness across 25 semiconductor lots, focusing on the effects of CVD chamber and Etch test on thickness variation. Includes boxplots, main effect plots, and specification limits.”
-- 25개 반도체 로트의 CMP 이후 Post Thickness를 분석하며, CVD 챔버와 Etch 테스트가 두께 변동에 미치는 영향을 평가합니다. Boxplot, Main Effect Plot, 규격선 포함.
+- “Analyzing Post CMP thickness across 25 wafers, focusing on the effects of CVD chamber and Etch test on thickness variation. Includes boxplots, main effect plots, and specification limits.”
+- 25개 웨이퍼의 CMP 이후 Post Thickness를 분석하며, CVD 챔버와 Etch 테스트가 두께 변동에 미치는 영향을 평가합니다. Boxplot, Main Effect Plot, 규격선 포함.
 
-# 1. 데이터
-- data : 25 lot ( etch 테스트 2개, CVD 테스트 3개, CMP 테스트 2개 적용 이력 존재 )
-- column name : S Lot	/ Post Thickness(A) /	dressing step sec /	Etch Si RIE /	Chamber	/ Etch test 적용 이력	/ CVD test 적용 이력
+# 1. 데이터 설명
+- Lot 구성: 25 wafers
+- 공정 이력: CMP 공정 이후 Post Thickness 측정
+- 공정 변경 요소:
+  
+| 구분   | 내용                                            |
+| ---- | --------------------------------------------- |
+| CMP  | Dressing step –2 sec (#1~12), –4 sec (#13~25) |
+| Etch | 테스트 이력 (test1~test5) 혼재                       |
+| CVD  | 테스트 이력 및 Chamber A/B/C 존재                     |
+
+- 데이터 컬럼 구조 :
+
+| Column              | Description                 |
+| ------------------- | --------------------------- |
+| `S Lot`             | Wafer Lot 번호 (#1~#25)       |
+| `Post Thickness(A)` | CMP 이후 박막 두께                |
+| `dressing step sec` | CMP dressing 조정값 (2 / 4)    |
+| `Etch Si RIE`       | Etch 후 Si RIE 두께            |
+| `Chamber`           | CMP 장비 Chamber (A / B / C)  |
+| `Etch test 적용 이력`   | Etch process test condition |
+| `CVD test 적용 이력`    | CVD process test condition  |
 
 
 
