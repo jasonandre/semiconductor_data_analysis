@@ -1,4 +1,4 @@
-# Analysis of Semiconductor Lot Post CMP Thickness: CVD Chamber & Etch Test Effects
+<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/325724af-7f76-4aac-a291-270d83cdc343" /># Analysis of Semiconductor Lot Post CMP Thickness: CVD Chamber & Etch Test Effects
 
 - “Analyzing Post CMP thickness across 25 wafers, focusing on the effects of CVD chamber and Etch test on thickness variation. Includes boxplots, main effect plots, and specification limits.”
 - 25개 웨이퍼의 CMP 이후 Post Thickness를 분석하며, CVD 챔버와 Etch 테스트가 두께 변동에 미치는 영향을 평가합니다. Boxplot, Main Effect Plot, 규격선 포함.
@@ -43,7 +43,7 @@
  -  Cp = 1.00 (설계상)  
  -  Cpk = 0.614  
 
-<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/f020fc4e-1ca1-49c9-97df-4a1b752d4cc2" />  
+<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/7fb2bf1b-41f1-4b17-b223-7c58335c56ce" />  
 
 
 2) Dressing 2 sec (#1~12)  
@@ -52,7 +52,8 @@
  -  Cp = 1.00  
  -  Cpk = 0.545  
 
-<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/b9dc800b-4caa-41e8-92d7-c51ba245ff70" />  
+<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/e7379023-c986-4c0c-801d-7609f9d0346a" />  
+
 
 
 3) Dressing 4 sec (#13-25)  
@@ -61,7 +62,7 @@
  -  Cp = 1.00  
  -  Cpk = 0.677  
 
-<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/9f088508-5f32-4dbd-af5e-f6d717c9ab97" />  
+<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/5984b3b6-505c-4fcd-b336-a8855c1e1451" />  
 
 
 
@@ -77,7 +78,8 @@
   -  Cp = 1.00  
   -  Cpk = 0.988  
 
-<img width="861" height="563" alt="image" src="https://github.com/user-attachments/assets/42b00787-c313-45c1-8928-291e2227c6cd" />
+<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/1df427cf-a092-43cf-82d5-f9d64c221939" />  
+
 
 
 
@@ -87,6 +89,9 @@
 
 # 3. I-MR 관리도
    *슈하트 규칙 적용
+
+<img width="989" height="390" alt="image" src="https://github.com/user-attachments/assets/6f98f96a-6e95-44ab-b4e4-fa3f853f40d9" />
+
    
 (1) dressing step 2초 하향 적용
   <img width="1169" height="564" alt="image" src="https://github.com/user-attachments/assets/fa41cfa5-108c-421a-82fb-8ad8e0541db7" />
