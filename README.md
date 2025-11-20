@@ -95,25 +95,35 @@
 <img width="989" height="390" alt="image" src="https://github.com/user-attachments/assets/4aed4a2b-dadb-40f4-a5b3-c4212589bbe5" />  
 
 
-(1) dressing step 2초 하향 적용
-  <img width="1169" height="564" alt="image" src="https://github.com/user-attachments/assets/fa41cfa5-108c-421a-82fb-8ad8e0541db7" />
+=== Design-based parameters ===  
+TARGET(CL) = 5000  
+LSL = 4600, USL = 5400  
+Design sigma = 133.333
+
+=== MR-Chart parameters (data-based) ===  
+MR_bar = 248.04, UCL_MR = 810.35  
+
+=== Nelson 8 Rules 위반 (Wafer 번호 기준) ===  
+rule1: ['#3', '#9', '#21']  
+rule2: []  
+rule3: []  
+rule4: []  
+rule5: []  
+rule6: []  
+rule7: []  
+rule8: []  
+all_viol: ['#3', '#9', '#21']  
+
+=== Nelson 8 Rules 위반 Wafer 상세 ===
+| S Lot | Post Thickness(A) | dressing step sec | Chamber | Etch Si RIE | Etch test 적용 이력 | CVD test 적용 이력 |
+| ------| ----------------- | ----------------- | ------- | ----------- | ------------------ | ------------------- |
+|  #3   |            5455   |               2   |     C   |      4695   |            test1   |            NaN      | 
+|  #9   |            5411   |               2   |     C   |      4785   |              NaN   |          test3      |
+|  #21  |            5477   |               4   |     C   |      4812   |              NaN   |          test5      |
 
 
-  <img width="1160" height="564" alt="image" src="https://github.com/user-attachments/assets/19b1aa6a-241b-4b79-8170-81eb99499d53" />
+ 
 
-
- - #3 (Value=5455): Rule 1: Beyond control limit
- - #9 (Value=5411): Rule 1: Beyond control limit
-
-   
-(2) dressing step 4초 하향 적용
-  <img width="1169" height="564" alt="image" src="https://github.com/user-attachments/assets/d98f80f0-054f-4c6f-9d24-c1447b40ca0d" />
-
-
-  <img width="1160" height="564" alt="image" src="https://github.com/user-attachments/assets/b353bad0-561d-4f26-a17b-44bbd2262fbd" />
-
-
- - #21 (Value=5477): Rule 1: Beyond control limit
 
 
 
