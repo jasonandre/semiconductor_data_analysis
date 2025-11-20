@@ -28,50 +28,54 @@
 
 
 
-# 2. 공정능력지수
+# 2. 공정능력지수  
+
+[CMP]  
+
  - dressing step 시간 단축 테스트 적용된 CMP 공정의 post thickness 데이터
  - CMP Post Target : 5000A +/- 400A
  - 평균의 이동 점검  
 
 
-(1) 전체 25개 기준  
-   평균(전체): 5154.48 Å  
-   σ_CMP = 133.33 Å  
-   Cp = 1.00 (설계상)  
-   Cpk = 0.614  
+1) 전체 25개 기준  
+ -  평균(전체): 5154.48 Å  
+ -  σ_CMP = 133.33 Å  
+ -  Cp = 1.00 (설계상)  
+ -  Cpk = 0.614  
 
 <img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/f020fc4e-1ca1-49c9-97df-4a1b752d4cc2" />  
 
 
-(2) Dressing 2 sec (#1~12)  
-    평균: 5181.83 Å  
-    σ_CMP = 133.33 Å  
-    Cp = 1.00  
-    Cpk = 0.545  
+2) Dressing 2 sec (#1~12)  
+ -  평균: 5181.83 Å  
+ -  σ_CMP = 133.33 Å  
+ -  Cp = 1.00  
+ -  Cpk = 0.545  
 
 <img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/b9dc800b-4caa-41e8-92d7-c51ba245ff70" />  
 
 
-(3) Dressing 4 sec (#13-25)  
-    평균: 5129.23 Å  
-    σ_CMP = 133.33 Å  
-    Cp = 1.00  
-    Cpk = 0.677  
+3) Dressing 4 sec (#13-25)  
+ -  평균: 5129.23 Å  
+ -  σ_CMP = 133.33 Å  
+ -  Cp = 1.00  
+ -  Cpk = 0.677  
 
 <img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/9f088508-5f32-4dbd-af5e-f6d717c9ab97" />  
 
 
 
 
-
+[Etch]  
 
  - Etch Si RIE post thickness 데이터
- - Etch Post Target : 4800A +/-150A
- 
-    평균 = 4798.16,
-    σ_Etch = 50.00 Å  
-    Cp = 1.00  
-    Cpk = 0.988  
+ - Etch Post Target : 4800A +/-150A  
+
+ 전체 25개 기준 
+  -  평균 = 4798.16,
+  -  σ_Etch = 50.00 Å  
+  -  Cp = 1.00  
+  -  Cpk = 0.988  
 
 <img width="861" height="563" alt="image" src="https://github.com/user-attachments/assets/42b00787-c313-45c1-8928-291e2227c6cd" />
 
