@@ -1,5 +1,3 @@
-<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/325724af-7f76-4aac-a291-270d83cdc343" /># Analysis of Semiconductor Lot Post CMP Thickness: CVD Chamber & Etch Test Effects
-
 - “Analyzing Post CMP thickness across 25 wafers, focusing on the effects of CVD chamber and Etch test on thickness variation. Includes boxplots, main effect plots, and specification limits.”
 - 25개 웨이퍼의 CMP 이후 Post Thickness를 분석하며, CVD 챔버와 Etch 테스트가 두께 변동에 미치는 영향을 평가합니다. Boxplot, Main Effect Plot, 규격선 포함.
 
