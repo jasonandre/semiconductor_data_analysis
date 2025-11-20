@@ -9,18 +9,18 @@
 | 구분   | 내용                                            |
 | ---- | --------------------------------------------- |
 | CMP  | Dressing step – 2 sec (#1-#12) / - 4 sec (#13-#25) |
-| Etch | 테스트 이력 (test1~test5) 혼재                       |
-| CVD  | 테스트 이력 및 Chamber A/B/C 존재                     |
+| Etch | 테스트 이력 (test1~test5) 혼재                      |
+| CVD  | 테스트 이력 및 Chamber A/B/C 존재                   |
 
 - 데이터 컬럼 구조 :
 
 | Column              | Description                 |
 | ------------------- | --------------------------- |
 | `S Lot`             | Wafer Lot 번호 (#1-#25)       |
-| `Post Thickness(A)` | CMP 이후 박막 두께                |
-| `dressing step sec` | CMP dressing 조정값 (2 / 4)    |
-| `Etch Si RIE`       | RIE 후 박막 두께            |
-| `Chamber`           | CMP 장비 Chamber (A / B / C)  |
+| `Post Thickness(A)` | CMP 이후 박막 두께             |
+| `dressing step sec` | CMP dressing 조정값 (2 / 4)   |
+| `Etch Si RIE`       | RIE 이후 박막 두께               |
+| `Chamber`           | CMP 장비 Chamber (A / B / C)    |
 | `Etch test 적용 이력`   | Etch process test condition |
 | `CVD test 적용 이력`    | CVD process test condition  |
 
@@ -80,7 +80,7 @@
 
 
 
-
+=> Etch 대비 cmp 공정 후 박막 두께 데이터에서 Cpk 가 크게 줄어듬  
 
 
 
