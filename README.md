@@ -1,8 +1,9 @@
  “Analyzing Post CMP thickness across 25 wafers, focusing on the effects of CVD chamber and Etch test on thickness variation.”  
  25개 웨이퍼의 CMP 이후 Post Thickness를 분석하며, CVD 챔버와 Etch 테스트가 두께 변동에 미치는 영향을 평가합니다.
 
-문제상황 : Capacity 향상을 목적으로 Dressing Step 2sec, 4sec 단축 평가 실시 후 Thickness를 측정  
-          총 3EA가 CMP Post Target 5000A +/-400A 기준 Spec out 하여 원인을 찾아 해결하고, 재발 방지 대책을 찾는 상황
+문제상황 : 
+- Capacity 향상을 목적으로 Dressing Step 2sec, 4sec 단축 평가 실시 후 Thickness를 측정  
+- 총 3EA가 CMP Post Target 5000A +/-400A 기준 Spec out 하여 원인을 찾아 해결하고, 재발 방지 대책을 찾는 상황
 
 # 1. 데이터 설명
 - Lot 구성: 25 wafers
