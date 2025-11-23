@@ -29,8 +29,47 @@
 | `CVD test 적용 이력`    | CVD process test condition  |
 
 
+# 2. I-MR 관리도
+   *넬슨 규칙 적용
 
-# 2. 박막 두께 기반 CMP·Etch 공정 성능 분석  
+전체 관리도  
+
+<img width="989" height="390" alt="image" src="https://github.com/user-attachments/assets/6f98f96a-6e95-44ab-b4e4-fa3f853f40d9" />  
+
+<img width="989" height="390" alt="image" src="https://github.com/user-attachments/assets/4aed4a2b-dadb-40f4-a5b3-c4212589bbe5" />  
+
+
+=== Design-based parameters ===  
+TARGET(CL) = 5000  
+LSL = 4600, USL = 5400  
+Design sigma = 133.333
+
+=== MR-Chart parameters (data-based) ===  
+MR_bar = 248.04, UCL_MR = 810.35  
+
+=== Nelson 8 Rules 위반 (Wafer 번호 기준) ===  
+rule1: ['#3', '#9', '#21']  
+rule2: []  
+rule3: []  
+rule4: []  
+rule5: []  
+rule6: []  
+rule7: []  
+rule8: []  
+all_viol: ['#3', '#9', '#21']  
+
+=== Nelson 8 Rules 위반 Wafer 상세 ===
+| S Lot | Post Thickness(A) | dressing step sec | Chamber | Etch Si RIE | Etch test 적용 이력 | CVD test 적용 이력 |
+| ------| ----------------- | ----------------- | ------- | ----------- | ------------------ | ------------------- |
+|  #3   |            5455   |               2   |     C   |      4695   |            test1   |            NaN      | 
+|  #9   |            5411   |               2   |     C   |      4785   |              NaN   |          test3      |
+|  #21  |            5477   |               4   |     C   |      4812   |              NaN   |          test5      |
+
+
+결론: 공통적으로 챔버 C 에서 spec out이 발생함 -> 챔버 C에 이상이 있을 가능성이 있다   
+
+
+# 3. 박막 두께 기반 CMP·Etch 공정 성능 분석  
 
 [CMP 공정]  
 
@@ -128,44 +167,6 @@ Cpk_design  = 0.988
 
 
 
-# 3. I-MR 관리도
-   *넬슨 규칙 적용
-
-전체 관리도  
-
-<img width="989" height="390" alt="image" src="https://github.com/user-attachments/assets/6f98f96a-6e95-44ab-b4e4-fa3f853f40d9" />  
-
-<img width="989" height="390" alt="image" src="https://github.com/user-attachments/assets/4aed4a2b-dadb-40f4-a5b3-c4212589bbe5" />  
-
-
-=== Design-based parameters ===  
-TARGET(CL) = 5000  
-LSL = 4600, USL = 5400  
-Design sigma = 133.333
-
-=== MR-Chart parameters (data-based) ===  
-MR_bar = 248.04, UCL_MR = 810.35  
-
-=== Nelson 8 Rules 위반 (Wafer 번호 기준) ===  
-rule1: ['#3', '#9', '#21']  
-rule2: []  
-rule3: []  
-rule4: []  
-rule5: []  
-rule6: []  
-rule7: []  
-rule8: []  
-all_viol: ['#3', '#9', '#21']  
-
-=== Nelson 8 Rules 위반 Wafer 상세 ===
-| S Lot | Post Thickness(A) | dressing step sec | Chamber | Etch Si RIE | Etch test 적용 이력 | CVD test 적용 이력 |
-| ------| ----------------- | ----------------- | ------- | ----------- | ------------------ | ------------------- |
-|  #3   |            5455   |               2   |     C   |      4695   |            test1   |            NaN      | 
-|  #9   |            5411   |               2   |     C   |      4785   |              NaN   |          test3      |
-|  #21  |            5477   |               4   |     C   |      4812   |              NaN   |          test5      |
-
-
-결론: 공통적으로 챔버 C 에서 spec out이 발생함 -> 챔버 C에 이상이 있을 가능성이 있다   
  
 
 # 4. CVD 챔버별 박스플롯
