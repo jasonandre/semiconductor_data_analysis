@@ -150,8 +150,8 @@ Etch 공정 Spec 기반 σ = 50.000
 === [Etch] 전체 LOT 기준 공정 능력 (설계 σ 기준) ===  
 표본 평균 = 4798.16   
 표본 표준편차 = 85.73  
-Cp_design   = 1.000  
-Cpk_design  = 0.988  
+Cp   = 1.000  
+Cpk  = 0.988  
 
 === [Etch] 그룹별 Capability 요약 (설계 σ 기준) ===  
 |           Group  |  N   |   Mean   | Cp | Cpk |
