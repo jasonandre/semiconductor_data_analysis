@@ -81,15 +81,13 @@ Cp=1로 설계한다고 가정했을 때, 타겟 목표를 기준으로 공정�
  - CMP Post Target : 5000A +/- 400A
  
 
-
 1) 전체 25개 기준  
  -  평균(전체): 5154.48 Å  
  -  σ_CMP = 133.33 Å  
  -  Cp = 1.00  
  -  Cpk = 0.614  
 
-<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/fb5982ff-48d4-452d-9157-590840225add" />
-
+<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/2b4e892d-e607-40b7-b8fb-42d8101505d7" />
 
 
 
@@ -99,8 +97,7 @@ Cp=1로 설계한다고 가정했을 때, 타겟 목표를 기준으로 공정�
  -  Cp = 1.00  
  -  Cpk = 0.545  
 
-<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/a95ef40a-ab60-43d0-b2c7-5eb32a9f2e59" />
-
+<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/01134371-8a0b-4d0b-ad49-1a3bf8bd3252" />
 
 
 
@@ -110,7 +107,8 @@ Cp=1로 설계한다고 가정했을 때, 타겟 목표를 기준으로 공정�
  -  Cp = 1.00  
  -  Cpk = 0.677  
 
-<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/5edecdce-38de-4c8d-9eaf-134077b3a78f" />
+<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/05197dd0-92af-4972-97c6-2eb32c6680b5" />
+
   
 
 
@@ -149,7 +147,8 @@ Cpk  = 0.614
   -  Cp = 1.00  
   -  Cpk = 0.988  
 
-<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/90ad9788-49c1-4ddc-b5ba-4a71534cb7fd" />
+<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/205b8a7f-ed77-4ff8-a330-5cc2ccc68ef5" />
+
 
 
 
