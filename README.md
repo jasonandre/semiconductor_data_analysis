@@ -3,7 +3,8 @@
 
 문제상황 : 
 - Capacity 향상을 목적으로 Dressing Step 2sec, 4sec 단축 평가 실시 후 Thickness를 측정  
-- 총 3EA가 CMP Post Target 5000A +/-400A 기준 Spec out 하여 원인을 찾아 해결하고, 재발 방지 대책을 찾는 상황
+- 총 3EA가 CMP Post Target 5000A +/-400A 기준 Spec out
+- 원인을 찾아 해결하고, 재발 방지 대책 수립
 
 # 1. 데이터 설명
 - Lot 구성: 25 wafers
