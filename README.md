@@ -14,9 +14,9 @@
   
 | 구분   | 내용                                            |
 | ---- | --------------------------------------------- |
-| CMP  | Thickness data 존재, 테스트 이력 2회 (Dressing step –2 sec / -4 sec )   |
-| Etch | Thickness data 존재, 테스트 이력 2회 (test1 - test2)                    |
-| CVD  | Thickness data 없음, 테스트 이력 3회 (test3 - test5), Chamber A/B/C 존재                |
+| CMP  | Thickness data 존재, 테스트 이력 2가지 (Dressing step –2 sec / -4 sec )   |
+| Etch | Thickness data 존재, 테스트 이력 2가지 (test1 - test2)                    |
+| CVD  | Thickness data 없음, 테스트 이력 3가지 (test3 - test5), Chamber A/B/C 존재                |
 
 - 데이터 컬럼 구조 :
 
