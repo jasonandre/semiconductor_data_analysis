@@ -239,9 +239,8 @@ CMP 공정의 post thickness 데이터로 CVD 공정테스트 이력을 분석�
   → test2 결과가 유의하다 (mean shift 있음)  
   
 #t-test 결과  
-결론:  
-      각각 적용된 테스트1, 2의 결과가 유의하다  
-      테스트 1에서는 Etch rate이 증가했다.  
-      테스트 2에서는 Etch rate이 감소했다.  
+결론: 각각 적용된 테스트1, 2의 결과가 유의하다  
+ - 테스트 1에서는 Etch rate이 증가했다.  
+ - 테스트 2에서는 Etch rate이 감소했다.  
 
 
