@@ -84,7 +84,9 @@ all_viol: ['#3', '#9', '#21']
  -  Cp = 1.00  
  -  Cpk = 0.614  
 
-<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/7fb2bf1b-41f1-4b17-b223-7c58335c56ce" />  
+<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/fb5982ff-48d4-452d-9157-590840225add" />
+
+
 
 
 2) Dressing 2 sec (#1~12)  
@@ -93,7 +95,8 @@ all_viol: ['#3', '#9', '#21']
  -  Cp = 1.00  
  -  Cpk = 0.545  
 
-<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/e7379023-c986-4c0c-801d-7609f9d0346a" />  
+<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/a95ef40a-ab60-43d0-b2c7-5eb32a9f2e59" />
+
 
 
 
@@ -103,7 +106,8 @@ all_viol: ['#3', '#9', '#21']
  -  Cp = 1.00  
  -  Cpk = 0.677  
 
-<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/5984b3b6-505c-4fcd-b336-a8855c1e1451" />  
+<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/5edecdce-38de-4c8d-9eaf-134077b3a78f" />
+  
 
 
 CMP 공정 Spec 기반 시그마 σ = 133.333
@@ -141,7 +145,8 @@ Cpk  = 0.614
   -  Cp = 1.00  
   -  Cpk = 0.988  
 
-<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/1df427cf-a092-43cf-82d5-f9d64c221939" />  
+<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/90ad9788-49c1-4ddc-b5ba-4a71534cb7fd" />
+
 
 
 
