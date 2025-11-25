@@ -196,33 +196,6 @@ Cpk  = 0.988
 
 
 
-# 5. Etch  테스트 적용 이력 분석  
-- CMP 공정의 테스트효과는 챔버 C의 영향으로 정상적인 분석이 불가능 -> Etch 테스트의 효과만 별도로 점검  
-- 각 테스트 별 구간 그림  
-  
-<img width="630" height="454" alt="image" src="https://github.com/user-attachments/assets/45ed7420-6742-44cc-921b-1a843aee6f8a" />  
-
-
-
-=== 단일표본 t-검정 ===  
-
-1) test1 
-  n=5, mean=4685.400, std=26.102  
-  t=-9.817, p=0.00060  
-  → test1 결과가 유의하다 (mean shift 있음)  
-
-2) test2   
-  n=5, mean=4929.400, std=19.705  
-  t=14.684, p=0.00013  
-  → test2 결과가 유의하다 (mean shift 있음)  
-  
-#t-test 결과  
-결론: 각각 적용된 테스트의 결과가 유의하다  
-
-
-
-
-
 # CMP post thickness 데이터 기반 CVD 테스트 이력 분석의 타당성 검증  
 
 CMP 공정의 post thickness 데이터로 CVD 공정테스트 이력을 분석하는 것은 적절하지 않을 수 있다. 따라서 dressing step 별로 전체 데이터를 나누고, 그 안에서 챔버 A,B,C의 상자그림, 주효과도를 분석해 보았다.
@@ -244,4 +217,27 @@ CMP 공정의 post thickness 데이터로 CVD 공정테스트 이력을 분석�
 결론 : 그래프 양상이 비슷하고, 2가지 테스트 모두 C챔버가 상한을 벗어나는 것이 확인된다. CMP 공정 테스트의 효과보다도 CVD 챔버 이상의 영향이 크다는 것을 확인할 수 있다. 
 
 
+
+# Etch  테스트 적용 이력 분석  
+- CMP 공정의 테스트효과는 챔버 C의 영향으로 정상적인 분석이 불가능 -> Etch 테스트의 효과만 별도로 점검  
+- 각 테스트 별 구간 그림  
+  
+<img width="630" height="454" alt="image" src="https://github.com/user-attachments/assets/45ed7420-6742-44cc-921b-1a843aee6f8a" />  
+
+
+
+=== 단일표본 t-검정 ===  
+
+1) test1 
+  n=5, mean=4685.400, std=26.102  
+  t=-9.817, p=0.00060  
+  → test1 결과가 유의하다 (mean shift 있음)  
+
+2) test2   
+  n=5, mean=4929.400, std=19.705  
+  t=14.684, p=0.00013  
+  → test2 결과가 유의하다 (mean shift 있음)  
+  
+#t-test 결과  
+결론: 각각 적용된 테스트의 결과가 유의하다  
 
