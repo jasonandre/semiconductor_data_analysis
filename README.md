@@ -1,3 +1,4 @@
+요약 :
  “Analysis of film-thickness data and history from 25 wafers is used to identify and resolve process abnormalities. The influence of the Etch process test on film thickness is also assessed.”  
  25개 웨이퍼의 박막 두께 데이터와 이력을 분석하여, 공정 이상을 발견하고 해결합니다. 추가로 Etch공정 테스트가 박막 두께에 미치는 영향을 평가합니다.
 
@@ -6,7 +7,7 @@
 - 총 3EA가 CMP Post Target 5000A +/-400A 기준 Spec out
 - 원인을 찾아 해결하고, 재발 방지 대책 수립
 
-# 1. 데이터 설명
+# 1. 데이터
 - Lot 구성: 25 wafers
 - 공정 이력: CMP 공정 이후 Post Thickness 측정
 - 공정 변경 요소:
