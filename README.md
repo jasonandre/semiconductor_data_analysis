@@ -1,6 +1,6 @@
 요약 :  
- “Analysis of film-thickness data and history from 25 wafers is used to identify and resolve process abnormalities. The influence of the Etch process test on film thickness is also assessed.”  
- 25개 웨이퍼의 박막 두께 데이터와 이력을 분석하여, 공정 이상을 발견하고 해결합니다. 추가로 Etch공정 테스트가 박막 두께에 미치는 영향을 평가합니다.  
+- “Analysis of film-thickness data and history from 25 wafers is used to identify and resolve process abnormalities. The influence of the Etch process test on film thickness is also assessed.”  
+- 25개 웨이퍼의 박막 두께 데이터와 이력을 분석하여, 공정 이상을 발견하고 해결합니다. 추가로 Etch공정 테스트가 박막 두께에 미치는 영향을 평가합니다.  
 
 문제상황 :  
 - Capacity 향상을 목적으로 Dressing Step 2sec, 4sec 단축 평가 실시 후 Thickness를 측정  
